@@ -1,0 +1,15 @@
+{
+  "name": "domain-checker",
+  "version": "1.0.0",
+  "description": "Belirli alan adlarını kontrol eden basit bir Node.js uygulaması.",
+  "main": "domainChecker.js",
+  "scripts": {
+    "start": "node domainChecker.js"
+  },
+  "author": "Utku Berkay Koç",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "whois": "^2.14.0"
+  }
+}
