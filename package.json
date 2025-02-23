@@ -1,6 +1,6 @@
 {
   "name": "domain-lookup",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "A simple CLI tool to check domain name availability using WHOIS.",
   "main": "index.js",
   "bin": {
@@ -16,9 +16,22 @@
   "keywords": [
     "whois",
     "domain",
+    "check",
+    "checker",
+    "lookup",
     "availability",
     "domain-lookup",
-    "cli"
+    "cli",
+    "command-line",
+    "command-line-tool",
+    "domain-scanner",
+    "domain-checker",
+    "domain-availability",
+    "domain-whois",
+    "domain-whois-lookup",
+    "domain-whois-checker",
+    "domain-whois-scanner",
+    "domain-whois-availability"
   ],
   "author": "Utku Berkay Koç",
   "license": "MIT",
