@@ -1,23 +1,23 @@
 {
-  "name": "domain-checker",
+  "name": "domain-lookup",
   "version": "1.0.0",
   "description": "A simple CLI tool to check domain name availability using WHOIS.",
   "main": "index.js",
   "bin": {
-    "domain-checker": "./cli.js"
+    "domain-lookup": "./cli.js"
   },
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/utkuberkaykoc/domain-checker.git"
+    "url": "https://github.com/utkuberkaykoc/domain-lookup.git"
   },
   "keywords": [
     "whois",
     "domain",
     "availability",
-    "domain-checker",
+    "domain-lookup",
     "cli"
   ],
   "author": "Utku Berkay Koç",
