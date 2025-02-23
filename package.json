@@ -1,6 +1,6 @@
 {
   "name": "domain-lookup",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "A simple CLI tool to check domain name availability using WHOIS.",
   "main": "index.js",
   "bin": {
