@@ -1,17 +1,67 @@
-# Domain Checker
+# Domain Checker 🚀  
 
-Bu basit bir Node.js uygulamasıdır. Belirli alan adlarını (domainler) kontrol eder ve kullanılabilir olup olmadıklarını söyler.
+A simple CLI tool to check domain name availability using WHOIS.  
 
-## Kurulum
-1. Node.js yükleyin: [nodejs.org](https://nodejs.org)
-2. Proje klasörüne gidin ve gerekli paketleri yükleyin: `npm i`
+![NPM Version](https://img.shields.io/npm/v/domain-checker?color=blue&style=flat-square)  
+![Downloads](https://img.shields.io/npm/dt/domain-checker?color=green&style=flat-square)  
+![License](https://img.shields.io/npm/l/domain-checker?style=flat-square)  
 
-## Kullanım
-1. Kontrol etmek istediğiniz alan adlarını `domains.txt` dosyasına ekleyin. Her alan adını yeni bir satıra yazın.
-2. Uygulamayı çalıştırmak için, `başlat.bat` dosyasını çift tıklayın veya terminalden `npm start` komutunu çalıştırın.
+---
 
-## Lisans
-[MIT](https://choosealicense.com/licenses/mit/) lisansı ile lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
+## 📦 Installation  
 
-## Geri Bildirim
-Herhangi bir geri bildiriminiz varsa, lütfen iletisim@berkaykoc.net adresinden bize ulaşın.
+Install via **npm**:  
+```sh
+npm install -g domain-checker
+```
+
+Or using **yarn**:  
+```sh
+yarn global add domain-checker
+```
+
+---
+
+## 🚀 Usage  
+
+### Check a Single Domain  
+```sh
+domain-checker google.com
+```
+
+### Check Multiple Domains from a File  
+```sh
+domain-checker -f domains.txt
+```
+
+---
+
+## 📜 API Reference  
+
+### `checkDomain(domain)`  
+Checks a single domain's availability.  
+
+### `checkDomainsFromFile(filePath)`  
+Checks multiple domains listed in a text file.  
+
+---
+
+## 🛠️ Contributing  
+
+Contributions are welcome! Fork the repository, create a branch, make changes, and submit a PR. 🚀  
+
+---
+
+## 📜 License  
+
+This project is licensed under the **MIT License**.  
+
+---
+
+## 🌟 Support & Contact  
+
+- **GitHub Issues:** [Report Bugs or Request Features](https://github.com/utkuberkaykoc/domain-checker/issues)  
+- **Give a Star:** ⭐ If you like this package, consider giving it a star on GitHub!  
+
+🚀 **Happy Coding!** 🎮✨  
+```

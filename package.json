@@ -1,15 +1,29 @@
 {
   "name": "domain-checker",
   "version": "1.0.0",
-  "description": "Belirli alan adlarını kontrol eden basit bir Node.js uygulaması.",
-  "main": "domainChecker.js",
-  "scripts": {
-    "start": "node domainChecker.js"
+  "description": "A simple CLI tool to check domain name availability using WHOIS.",
+  "main": "index.js",
+  "bin": {
+    "domain-checker": "./cli.js"
   },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/utkuberkaykoc/domain-checker.git"
+  },
+  "keywords": [
+    "whois",
+    "domain",
+    "availability",
+    "domain-checker",
+    "cli"
+  ],
   "author": "Utku Berkay Koç",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^4.1.0",
-    "whois": "^2.14.0"
+    "whois": "^2.10.0",
+    "chalk": "^5.0.1"
   }
 }
